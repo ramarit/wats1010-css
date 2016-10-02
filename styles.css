@@ -1,6 +1,257 @@
-/* This is where styles are defined for your page. */
-/* One style is provided as example. */
-
-h1 {
-    color: green;
+/* text center class */
+.text-center {
+  text-align: center;
 }
+
+/* body */
+body {
+  font-size: 100%;
+  background-image: url("images/sand.jpg");
+  font-family: 'Paytone One', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* header */
+.page-header {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: black;
+  color: #fff8e2;
+}
+
+/* h1 element */
+.page-header h1 {
+  line-height: .075;
+  font-size: 3em;
+}
+
+/* more info */
+.more-info h2 {
+  font-size: 2em;
+  padding-top: 50px;
+  line-height: .2;
+}
+
+.more-info img {
+  padding-bottom: 20px;
+}
+
+/* arrow down */
+.arrow-down {
+  height: 20px;
+  width: auto;
+}
+
+/* portrait image */
+.portrait {
+  height: auto;
+  width: auto;
+  max-height: 400px;
+  max-width: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* links */
+.info-links {
+  list-style-type: none; /* remove bullet points  */
+  list-style-position:inside; /* remove indentation from li */
+  margin:0;
+  padding:0;
+}
+
+.info-links a {
+  text-decoration: none;
+  color: #fff8e2;
+}
+
+.info-links li {
+  border-radius: 10px;
+  padding-bottom: 15px;
+  margin: 5px auto;
+  width: 300px;
+  vertical-align: middle;
+}
+
+.info:hover {
+  background-color:#EC5500;
+  text-decoration:none;
+  color:#FFFFFF;
+}
+
+/* makes info boxes clickable */
+.info {
+  cursor:pointer;
+  background-color:black;
+  display:block;
+  text-align:center;
+  margin-top:8px;
+  width:300px;
+  height:25px;
+  border-radius:5px;
+  border-width:1px;
+}
+/* social media logos */
+.social-logo {
+  height: auto;
+  width: auto;
+  max-height: 50px;
+  max-width: 50px;
+  padding: 10px;
+}
+ 
+.social-links .social-logo{
+  position: relative;
+  display: inline-block;
+}
+
+.social-links {
+  list-style: none;
+}
+
+.social-links a {
+  text-decoration: none;
+
+}
+
+#content {
+  padding-top: 5px;
+}
+/* Poem class */
+.poem { 
+  list-style-type: none; /* remove bullet points from poem */
+  list-style-position:inside; /* remove indentation from li */
+  margin:0;
+  padding:0;
+  font-family: 'Ultra', serif;
+}
+
+.poem {
+  box-sizing: border-box; /* or not */
+  margin: 0 auto;
+  width: 65%;
+  /*background: #fff8e2;*/
+  background: rgba(249,249,234,.3);
+  padding: 1.5rem;
+  padding-bottom: 3rem;
+  border-radius: 5px;
+}
+
+/*first letter of poem, enlarge the letter */
+.poem li:nth-child(1):first-letter {
+  font-weight: bold;
+  font-size: 150%
+}
+
+/* content footer */
+.content-footer {
+  padding-bottom: 50px;
+}
+.content-footer .citation {
+  font-size: .6em;
+}
+
+.content-footer .citation a {
+  text-decoration: none;
+  color: black;
+  padding-bottom: 100px;
+}
+
+.content-footer .citation a:hover {
+  color: #EC5500;
+}
+
+/* page footer */
+.page-footer {
+  display: table;
+  width: 100%;
+  height: 100px;
+  margin-top: 30px;
+  padding-top: 35px;
+  background-color: #222;
+  border-top: 0;
+
+}
+
+.page-footer .citation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page-footer a {
+  text-decoration: none;
+  color: #fff8e2;
+}
+
+.page-footer a:hover {
+  color: #EC5500;
+}
+
+.page-footer .citation {
+  color: #EC5500;
+  font-size: .9em;
+  line-height: 2;
+}
+
+.page-footer .citation {
+  width: auto;
+}
+
+#flat-icon {
+  color:#EC5500;
+}
+
+/* page credits */
+.page-credits a {
+  text-decoration: none;
+  color: black;
+}
+
+.page-credits a:hover {
+  color: #fff8e2;
+}
+
+.page-credits {
+  margin-top: 50px;
+  color: black;
+  font-size: .75em;
+  line-height: 2;
+  display: block;
+  background-color: rgba(222, 124, 27, 0.8);
+}
+
+/* makes svgs clickable */
+a.svg:after {
+  content: ""; 
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  left: 0;
+}
+
+a.svg {
+  position: relative;
+  display: inline-block;
+}
+
+.arrow-down {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transition: opacity 0.3s; 
+  -moz-transition: opacity 0.3s; 
+  -ms-transition: opacity 0.3s; 
+  -o-transition: opacity 0.3s; 
+  transition: opacity 0.3s;
+}
+
+.arrow-down.top:hover {
+  opacity:0;
+}
+
+
