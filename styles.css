@@ -223,7 +223,7 @@ body {
   font-size: .75em;
   line-height: 2;
   display: block;
-  background-color: rgba(222, 124, 27, 0.8);
+  background-color: #EC5500;
 }
 
 /* makes svgs clickable */
