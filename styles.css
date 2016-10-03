@@ -10,6 +10,7 @@ body {
   font-family: 'Paytone One', sans-serif;
   margin: 0;
   padding: 0;
+  color: #222;
 }
 
 
@@ -17,7 +18,7 @@ body {
 .page-header {
   padding-top: 50px;
   padding-bottom: 20px;
-  background-color: black;
+  background-color: #222;
   color: #fff8e2;
 }
 
@@ -65,6 +66,7 @@ body {
 .info-links a {
   text-decoration: none;
   color: #fff8e2;
+  line-height: 30px; 
 }
 
 .info-links li {
@@ -84,12 +86,12 @@ body {
 /* makes info boxes clickable */
 .info {
   cursor:pointer;
-  background-color:black;
+  background-color:#222;
   display:block;
   text-align:center;
   margin-top:8px;
   width:300px;
-  height:25px;
+  height:30px;
   border-radius:5px;
   border-width:1px;
 }
